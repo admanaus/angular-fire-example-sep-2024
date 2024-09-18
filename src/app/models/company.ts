@@ -1,4 +1,5 @@
 export interface Company {
-    name: string;
-    phone: string;
-  }
+  id?: string;
+  name: string;
+  phone?: string;
+}
